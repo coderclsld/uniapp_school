@@ -1,0 +1,67 @@
+{
+	"easycom":{
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/test/test1",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/shequ/shequnew",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/message/chatroom",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color" : "#B5B5B5",
+		"selectedColor": "#36A1F1",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/shequ/shequnew",
+				"text": "社区",
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/mya.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "信息",
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/mya.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/mya.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/shequ/shequ",
+    "pages/message/chatroom",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#36A1F1",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/shequ/shequ",
+        "text": "社区",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/mya.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/mya.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/mya.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

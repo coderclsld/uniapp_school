@@ -1,0 +1,17 @@
+page{
+	height: 100%;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.uni-navbar .uni-icons{
+	color:#36A1F1 !important;
+}
+/* 分隔条 */
+.divider_bar{
+    height: 8rpx;
+    width: 100%;
+    background-color:#f9f9f9;
+}
